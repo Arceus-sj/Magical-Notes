@@ -14,6 +14,7 @@ addBtn.addEventListener('click', function () {
   else {
     let note = document.createElement('p');
     note.innerHTML = textNote;
+    note.setAttribute('class', 'notes-text');
     showNotes.appendChild(note);
   }
 
