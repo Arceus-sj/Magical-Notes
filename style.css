@@ -107,3 +107,13 @@ span {
     color: #fff;
     background-color: #A85CF9;
 }
+
+.your-notes-section {
+    width: 90%;
+    margin: 50px auto;
+    border: 1px solid red;
+}
+
+.your-notes-section h1 {
+    text-align: center;
+}
