@@ -21,7 +21,7 @@
     margin-top: 5px;
     margin-right: 10px;
     border: none;
-    border-radius: 9px;
+    border-radius: 5px;
     letter-spacing: 3px;
     background-color: #A85CF9;
     border: 1px solid transparent;
@@ -39,6 +39,8 @@
 .note-area h1 {
     letter-spacing: 3px;
     text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .note-section {
@@ -58,7 +60,7 @@ span {
     padding: 10px;
     background-color: #ECECEC;
     border: none;
-    border-radius: 9px;
+    border-radius: 5px;
 }
 
 .btns {
@@ -74,7 +76,7 @@ span {
     margin-top: 5px;
     margin-right: 10px;
     border: none;
-    border-radius: 9px;
+    border-radius: 5px;
     letter-spacing: 3px;
 }
 
@@ -109,11 +111,46 @@ span {
 }
 
 .your-notes-section {
-    width: 90%;
+    width: 95%;
     margin: 50px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .your-notes-section h1 {
     text-align: center;
+}
+
+
+ .line{
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    border-top: 2px solid #A85CF9;
+}
+
+.show-notes {
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+
+.show-notes p {
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    margin: 10px;
+    font-size: 1.1rem;
+    word-spacing: 3px;
+    transition-property: border;
+    transition-duration: 0.5s;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.show-notes p:hover {
+    border: 2px solid #A85CF9;
+    border-radius: 5px;
 }
