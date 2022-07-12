@@ -134,11 +134,12 @@ span {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    
     /* border: 1px solid black; */
 }
 
-.show-notes p {
-    width: 30%;
+.show-notes .added-note-area {
+    width: auto;
     height: auto;
     padding: 15px;
     margin: 10px;
@@ -148,9 +149,31 @@ span {
     transition-duration: 0.5s;
     border: 2px solid transparent;
     border-radius: 5px;
+    box-shadow: 0 0 3px #A85CF9;
+    overflow: visible;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
-.show-notes p:hover {
+.show-notes .added-note-area:hover {
     border: 2px solid #A85CF9;
     border-radius: 5px;
+}
+
+
+.show-notes .added-note-area nav {
+    /* border: 1px solid blue; */
+    padding: 5px;
+    text-align: end;
+}
+
+.show-notes .added-note-area nav button {
+    border: none;
+    background-color: transparent;
+    color: #FF2442;
+    font-size: 2rem;
+}
+
+.show-notes .added-note-area p {
+    /* border: 1px solid red; */
 }
