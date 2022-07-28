@@ -1,1 +1,1 @@
-# Magical-Notes
+# My-Magical-Notes
