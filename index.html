@@ -32,12 +32,18 @@
       <h1>Welcome to <span>My Magical Notes</span></h1>
       <span class="header-line"></span>
       <div class="form-section">
+        <div class="note-section" id="note-header">
+          <textarea name="note-heading" id="note-heading" cols="20" rows="1" placeholder="Enter Heading"></textarea>
+        </div>
         <div class="note-section">
-          <input type="text" name="notes" id="notes" placeholder="Add Notes">
+          <textarea type="text" name="notes" id="notes" placeholder="Add Notes" rows="10" cols="20"></textarea>
         </div>
         <div class="btns">
+          <div>
             <button id="add">Add Notes</button>
             <button id="clear">Clear</button>
+          </div>
+            <button id="show">My-Notes</button>
         </div>
       </div>
     </div>
