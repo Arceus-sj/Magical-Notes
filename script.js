@@ -13,6 +13,9 @@ addBtn.addEventListener('click', function () {
   if(textNote === "") {
     alert('Empty text ...');
   }
+  else if(noteHeading === '') {
+    alert('Enter Heading ...');
+  }
   else {
     id++;
     let noteArea = document.createElement('div');
